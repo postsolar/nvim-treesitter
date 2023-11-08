@@ -122,8 +122,9 @@
 
  (row_field (field_name) @field)
  (record_field (field_name) @field)
- (record_accessor (variable) @field)
- (exp_record_access (variable) @field)
+ (record_field (field_pun) @field)
+ (record_accessor field: (variable) @field)
+ (exp_record_access field: (variable) @field)
 
  (signature name: (variable) @type)
  (kind_declaration (class_name) @type)
